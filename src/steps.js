@@ -56,7 +56,7 @@ export const steps = [
   {
     id: "9",
     options: [
-      { value: "yes", label: "Yes", trigger: "4" },
+      { value: "yes", label: "Yes", trigger: "3" },
       { value: "no", label: "No", trigger: "10" },
     ],
   },
