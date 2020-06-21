@@ -41,28 +41,14 @@ export const steps = [
     component: <CovidStateStatus />,
     asMessage: true,
     waitAction: true,
-    trigger: "7",
-  },
-  {
-    id: "7",
-    message: "Thank You",
     trigger: "8",
   },
+
   {
     id: "8",
-    message: "Wanna Know about another state",
+    message: "Thank You",
     trigger: "9",
-  },
-  {
-    id: "9",
-    options: [
-      { value: "yes", label: "Yes", trigger: "3" },
-      { value: "no", label: "No", trigger: "10" },
-    ],
-  },
-  {
-    id: "10",
-    message: "ok see you next time",
+    end: true,
   },
 ];
 
