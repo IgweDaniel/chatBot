@@ -47,7 +47,6 @@ export const steps = [
   {
     id: "8",
     message: "Thank You",
-    trigger: "9",
     end: true,
   },
 ];
