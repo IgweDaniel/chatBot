@@ -51,6 +51,7 @@ export const steps = [
   {
     id: "8",
     message: "Wanna Know about another state",
+    trigger: "9",
   },
   {
     id: "9",
